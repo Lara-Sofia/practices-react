@@ -3,6 +3,7 @@ import './App.css';
 
 import Movies from './components/Movies/Movies';
 import TableForm from './components/Table/TableForm';
+import Calculadora from './components/Calculadora/Calculadora';
 
 
 
@@ -20,6 +21,8 @@ const App = () => {
       <h1>hola</h1>
       <Movies movies={moviesByWesAnderson}/>
       <TableForm/>
+      <p>-----</p>
+      <Calculadora/>
     </div>
   );
 }
