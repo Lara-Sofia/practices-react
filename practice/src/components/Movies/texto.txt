@@ -1,0 +1,19 @@
+En el componente App.js poseoel siguiente arreglo:
+
+const moviesByWesAnderson = [
+    {title: "Fantastic Mr Fox", rating: 7.9}, 
+    {title: "Grand Hotel Budapest", rating: 8.1},
+    {title: "Moonse Kingdom", rating: 7.8}, 
+    {title: "The Room Of Life", rating:7.9},
+    {title: "Imposible", rating: 9.1}, 
+  ];
+
+Escribir el componente Movies.js que reciba por props ese erreglo, filtre a las películas 
+con raiting mayor a 8 y devuelva un componente Movie por cada una de las películas que cumplen
+esta condición. 
+
+Movie debe tener una etiqueta h1 con un titulo y una etiqueta p con el puntaje
+<Movie title={aca el titulo} rating={aca el rating}
+
+
+<Movies moviesList={moviesByWesAnderson}/>

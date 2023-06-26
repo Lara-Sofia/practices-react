@@ -1,0 +1,14 @@
+Deseamos crear dos componentes para el ingreso de la cantidad de patas que va a tener una mesa.
+Los componentes se denominan TableForm y TableInput y necesitan cumplir los siguiente requisitos:
+
+TableInput: 
+* Este componente solo retornará un input en donde el usuaarioingresará la cantidad de patas
+que va a tener la mesa.
+* no es obligatoorio pero se considerará puntos extras la buena utilización del two-way data binding
+
+TableForm:
+* debe tener un mensaje h2 que indique "igrese la cantiadad de patas que tendrá la mesa"
+* debe importar y utilizar el componente TableInput
+*debe tener un elemento p que:
+    - en el caso de que el usuario escriba el valor 4 en el input, mostrará el mensaje "mesa concreta"
+    - caso que nos sea 4 el valor del input mostrará "mesa estable"
